@@ -99,8 +99,8 @@ end
 end
 
 
-def play
-  while over? == false
+  def play
+    while over? == false
     turn
   end
   if won?
